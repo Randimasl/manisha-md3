@@ -34,7 +34,7 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 
 let madeMenu = ` *👋 Hello ${pushname}*
 
-🧚‍♀️ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 Dark Queen 🧚‍♀️
+🧚‍♀️ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗗𝗮𝗿𝗸 𝗤𝘂𝗲𝗲𝗻 🧚‍♀️
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
 │◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ :ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ
@@ -87,17 +87,7 @@ let madeMenu = ` *👋 Hello ${pushname}*
   ───────
  ${menu.tools}
 ╰───────────●●►
-╭──────────●●►
- 📰 *𝐍𝐄𝐖𝐒 𝐌𝐞𝐧𝐮*
-  ───────
- .news (English)
- .derananews
- .sirasanews
- .hirunews
- .startnews (auto news on)
- .stopnews (auto news off)
-╰───────────●●►
-*🧚Dark Queen ᴍᴀᴅᴇ ʙʏ ᴍᴀɴɪꜱʜᴀ🧚*
+*🧚𝗗𝗮𝗿𝗸 𝗤𝘂𝗲𝗲𝗻🧚*
 `
 return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/tjhxsh.jpg`},caption:madeMenu},{quoted: mek})
 }catch(e){
