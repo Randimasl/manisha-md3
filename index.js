@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful 🧚')
 console.log('Bot connected to whatsapp 🧚‍♀️')
 
-let up = `🧚 *_MANISHA-MD Connected Successfully!_* 🧚 
+let up = `🧚 *_Dark Queen Connected Successfully!_* 🧚 
 
 --- *🌹🧚‍♀️ _Welcome to Dark Queen!_* 🧚‍♀️🌹
 
@@ -79,13 +79,11 @@ let up = `🧚 *_MANISHA-MD Connected Successfully!_* 🧚
 
 *🔹 MADE BY:* manisha sasmitha
 
-_Thank you for using_ *🕺Dark Queen🌹.*
+_Thank you for using_ *🧚‍♂️Dark Queen🧚‍♂️.*
 _We're here to make your experience enjoyable and seamless._
 _If you need any help or have questions, don't hesitate to ask._ 🧚‍♀️🌹
 
 *🖇️Join My WhatsApp Channel✓🧚‍♀️ - :* https://whatsapp.com/channel/0029VavZd1y0lwgxqEopap2e
-
-*🖇️Subscribe My Youtube Channel✓🧚‍♀️ - :* https://youtube.com/@manishasasmitha
 
 _*🧚‍♂️Enjoy your time with us!🧚‍♂️*_
 
