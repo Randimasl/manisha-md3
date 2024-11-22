@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting Dark Queen 💫...");
+console.log("Connecting Dark Queen 🧚‍♀️...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/Dark_Queen/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -73,8 +73,6 @@ let up = `🧚 *_Dark Queen Connected Successfully!_* 🧚
 
 --- *🌹🧚‍♀️ _Welcome to Dark Queen!_* 🧚‍♀️🌹
 
-*🔹 PREFIX:* ${prefix}
-
 *🔹 OWNER:* ${ownerNumber}
 
 *🔹 MADE BY:* manisha sasmitha
@@ -87,7 +85,7 @@ _If you need any help or have questions, don't hesitate to ask._ 🧚‍♀️�
 
 _*🧚‍♂️Enjoy your time with us!🧚‍♂️*_
 
-*🧚‍♂️Dark Queen ᴍᴀᴅᴇ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ🧚‍♂️* `;
+*🧚‍♂️Dark Queen🧚‍♂️* `;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/tjhxsh.jpg` }, caption: up })
 
