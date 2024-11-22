@@ -1,5 +1,5 @@
 
-import { xnxxSearch, xnxxdl } from '../lib/function';
+import { xnxxSearch, xnxxdl } from '../lib/functions.js';
 
 
 
