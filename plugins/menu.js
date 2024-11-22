@@ -89,7 +89,7 @@ let madeMenu = ` *👋 Hello ${pushname}*
 ╰───────────●●►
 *🧚𝗗𝗮𝗿𝗸 𝗤𝘂𝗲𝗲𝗻🧚*
 `
-return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/tjhxsh.jpg`},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/gj8jbu.jpg`},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`Error`)
