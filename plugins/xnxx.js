@@ -1,5 +1,5 @@
 
-import { xnxxSearch, xnxxdl } from '../lib/functions.js';
+import { xnxxSearch, xnxxdl } from '../lib/scraper.js';
 
 
 
