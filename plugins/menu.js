@@ -6,7 +6,7 @@ const {runtime} = require('../lib/functions')
 cmd({
     pattern: "menu",
     desc: "To get the menu.",
-    react: "📜",
+    react: "🧾",
     category: "main",
     filename: __filename
 },
@@ -34,7 +34,7 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 
 let madeMenu = ` *👋 Hello ${pushname}*
 
-☄ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗠𝗔𝗡𝗜𝗦𝗛𝗔-𝗠𝗗 ☄
+🧚‍♀️ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 Dark Queen 🧚‍♀️
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
 │◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ :ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ
@@ -97,7 +97,7 @@ let madeMenu = ` *👋 Hello ${pushname}*
  .startnews (auto news on)
  .stopnews (auto news off)
 ╰───────────●●►
-*🧍ᴍᴀɴɪꜱʜᴀ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ᴍᴀɴɪꜱʜᴀ🧍*
+*🧚Dark Queen ᴍᴀᴅᴇ ʙʏ ᴍᴀɴɪꜱʜᴀ🧚*
 `
 return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/tjhxsh.jpg`},caption:madeMenu},{quoted: mek})
 }catch(e){
