@@ -6,7 +6,7 @@ jidNormalizedUser,
 getContentType,
 fetchLatestBaileysVersion,
 Browsers
-} = require('@Dark/Queen')
+} = require('@whiskeysockets/baileys')
 
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
 const fs = require('fs')
