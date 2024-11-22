@@ -1,12 +1,12 @@
 {
-  "name": "Dark Queen",
+  "name": "Dark-Queen",
   "version": "2.0.0",
   "description": "Dark Queen WhatsApp bot created manisha With using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Dark Queen",
-    "stop": "pm2 stop Dark Queen",
-    "restart": "pm2 restart Dark Queen"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Dark-Queen",
+    "stop": "pm2 stop Dark-Queen",
+    "restart": "pm2 restart Dark-Queen"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
