@@ -77,9 +77,7 @@ let up = `🧚 *_Dark Queen Connected Successfully!_* 🧚
 
 *🔹 MADE BY:* manisha sasmitha
 
-_Thank you for using_ *🧚‍♂️Dark Queen🧚‍♂️.*
-_We're here to make your experience enjoyable and seamless._
-_If you need any help or have questions, don't hesitate to ask._ 🧚‍♀️🌹
+🌹 සාදරයෙන් පිලිගන්නවා 🧚‍♂️Dark Queen🧚‍♂️ WHATSAPP වෙත ඔබගේ ගිණුම දැන් සක්‍රියයි Dark Queen පිළිබද සම්පූර්ණ අවබෝධයක් ලබා ගැනීමට .owener විධානය භාවිතා කරන්න 🧚‍♂️Dark Queen🧚‍♀️ යනූ සීඝ්‍රයෙන් වර්ධනය වන Whatsapp රොබෝවෙකි මෙය ඔබගේ LOG අංකයයි මෙහි විධාන භාවිතයෙන් වළකින්න⚠️ 🌹*
 
 *🖇️Join My WhatsApp Channel✓🧚‍♀️ - :* https://whatsapp.com/channel/0029VavZd1y0lwgxqEopap2e
 
