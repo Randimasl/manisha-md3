@@ -22,14 +22,14 @@ const prefix = '.'
 const ownerNumber = ['94759934522']
 
 //===================SESSION-AUTH============================
-if (!fs.existsSync(__dirname + '/manisha/creds.json')) {
+if (!fs.existsSync(__dirname + '/Dark_Queen/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
 const sessdata = config.SESSION_ID
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
-fs.writeFile(__dirname + '/manisha/creds.json', data, () => {
-console.log("Session downloaded ✅")
+fs.writeFile(__dirname + '/Dark_Queen/creds.json', data, () => {
+console.log("Session downloaded 🧚‍♂️")
 })})}
 
 const express = require("express");
@@ -39,8 +39,8 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting MANISHA-MD BOT 💫...");
-const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/manisha/')
+console.log("Connecting Dark Queen 💫...");
+const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/Dark_Queen/')
 var { version } = await fetchLatestBaileysVersion()
 
 const conn = makeWASocket({
@@ -59,19 +59,19 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('🌠 Installing')
+console.log('🧚 Installing')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
 require("./plugins/" + plugin);
 }
 });
-console.log('Plugins installed successful ✅')
-console.log('Bot connected to whatsapp ✅')
+console.log('Plugins installed successful 🧚')
+console.log('Bot connected to whatsapp 🧚‍♀️')
 
-let up = `🚀 *_MANISHA-MD Connected Successfully!_* ✅ 
+let up = `🧚 *_MANISHA-MD Connected Successfully!_* 🧚 
 
---- *😈🎉 _Welcome to MANISHA-MD!_* 🎉😈 
+--- *🌹🧚‍♀️ _Welcome to Dark Queen!_* 🧚‍♀️🌹
 
 *🔹 PREFIX:* ${prefix}
 
@@ -79,17 +79,17 @@ let up = `🚀 *_MANISHA-MD Connected Successfully!_* ✅
 
 *🔹 MADE BY:* manisha sasmitha
 
-_Thank you for using_ *🕺MANISHA-MD💗.*
+_Thank you for using_ *🕺Dark Queen🌹.*
 _We're here to make your experience enjoyable and seamless._
-_If you need any help or have questions, don't hesitate to ask._ 🌝💗
+_If you need any help or have questions, don't hesitate to ask._ 🧚‍♀️🌹
 
-*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VavZd1y0lwgxqEopap2e
+*🖇️Join My WhatsApp Channel✓🧚‍♀️ - :* https://whatsapp.com/channel/0029VavZd1y0lwgxqEopap2e
 
-*🖇️Subscribe My Youtube Channel✓💗 - :* https://youtube.com/@manishasasmitha
+*🖇️Subscribe My Youtube Channel✓🧚‍♀️ - :* https://youtube.com/@manishasasmitha
 
-_*🕺Enjoy your time with us!😊*_
+_*🧚‍♂️Enjoy your time with us!🧚‍♂️*_
 
-*👨‍💻ᴍᴀɴɪꜱʜᴀ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ👨‍💻* `;
+*🧚‍♂️Dark Queen ᴍᴀᴅᴇ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ🧚‍♂️* `;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/tjhxsh.jpg` }, caption: up })
 
@@ -162,11 +162,11 @@ if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
 if(senderNumber.includes("94759934522")){
 if(isReact) return
-m.react("❤️‍🔥")
+m.react("🧚‍♀️")
 }
 if(senderNumber.includes("94721551183")){
 if(isReact) return
-m.react("💗")
+m.react("🧚")
 }
 //=====================✓
 
@@ -212,9 +212,9 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, MANISHA-MD started✅");
+res.send("hey, Dark Queen started🧚‍♀️");
 });
-app.listen(port, () => console.log(`manisha md Server listening on port http://localhost:${port}`));
+app.listen(port, () => console.log(`Dark Queen Server listening on port http://localhost:${port}`));
 setTimeout(() => {
 connectToWA()
 }, 4000);  
