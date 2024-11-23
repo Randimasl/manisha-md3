@@ -36,9 +36,7 @@
     "@sl-code-lords/esana-news": "latest",
     "youtubedl-core": "^4.11.5",
     "moment-timezone": "latest",
-    "hirunews-scrap": "^1.1.3",
     "google-tts-api":"2.0.2",
-    "ytdl-core": "^4.11.5",
-    "xnxx-dl": "^1.0.4"
+    "ytdl-core": "^4.11.5"
   }
 }
