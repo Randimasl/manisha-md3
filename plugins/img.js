@@ -2,8 +2,8 @@ const { cmd } = require('../command');
 const axios = require('axios');
 const { Buffer } = require('buffer');
 
-const GOOGLE_API_KEY = 'AIzaSyDebFT-uY_f82_An6bnE9WvVcgVbzwDKgU'; // Replace with your Google API key
-const GOOGLE_CX = '45b94c5cef39940d1'; // Replace with your Google Custom Search Engine ID
+const GOOGLE_API_KEY = 'AIzaSyDebFT-uY_f82_An6bnE9WvVcgVbzwDKgU';
+const GOOGLE_CX = '45b94c5cef39940d1';
 
 cmd({
     pattern: "img",
@@ -39,9 +39,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             await conn.sendMessage(from, {
                 image: buffer,
                 caption: `
-🌟 *Image ${i + 1} from your search!* 🌟
-✨ *NADEEN-MD IMG DOWNLOADER* ✨
-*👨‍💻ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ👨‍💻*
+🧚‍♀️ *Image ${i + 1} from your search!* 🧚‍♀️
+🧚‍♂️ *Dark Queen IMG DOWNLOAD* 🧚‍♂️
+*🧚‍♀️Dark Queen MADE BY MANISHA🧚‍♀️*
 `
 }, { quoted: mek });
 }
