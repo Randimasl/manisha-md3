@@ -10,7 +10,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-const caption = `\`\`\`
+}`const caption = `\`\`\`
 ❖ ── ✦ ──『✙ Alive ✙』── ✦ ── ❖
 
 📅 ${stylish.tiny('Date Today')} : ${myfunc.dayToday().date}
@@ -36,7 +36,7 @@ const caption = `\`\`\`
    𝟭 𝗔𝗹𝗹𝗺𝗲𝗻𝘂
    𝟮 𝗟𝗶𝘀𝘁𝗺𝗲𝗻𝘂
 _ID: QA01_
-`;
+`;`{
 return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: config.ALIVE_MSG},{quoted: mek})
 }catch(e){
 console.log(e)
