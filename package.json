@@ -37,6 +37,7 @@
     "youtubedl-core": "^4.11.5",
     "moment-timezone": "latest",
     "google-tts-api":"2.0.2",
-    "ytdl-core": "^4.11.5"
+    "ytdl-core": "^4.11.5",
+    "mongoose":"8.5.3"
   }
 }
