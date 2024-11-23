@@ -40,8 +40,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 image: buffer,
                 caption: `
 🧚‍♀️ *Image ${i + 1} from your search!* 🧚‍♀️
-🧚‍♂️ *Dark Queen IMG DOWNLOADER* 🧚‍♂️
-*🧚‍♀️Dark Queen🧚‍♀️*
+⃟🧚‍♂️ 𝗗𝗮𝗿𝗸 𝗤𝘂𝗲𝗲𝗻 𝗜𝗠𝗚 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 🧚‍♂️⃟
+*🧚‍♀️𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗠𝗔𝗡𝗜𝗦𝗛𝗔🧚‍♀️*
 `
 }, { quoted: mek });
 }
