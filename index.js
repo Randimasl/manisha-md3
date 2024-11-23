@@ -81,6 +81,8 @@ let up = `🧚 *_Dark Queen Connected Successfully!_* 🧚
 
 *🖇️Join My WhatsApp Channel✓🧚‍♀️ - :* https://whatsapp.com/channel/0029VavZd1y0lwgxqEopap2e
 
+*🖇️Join My WhatsApp group✓🧚‍♀️ - :* https://chat.whatsapp.com/IEEUnyvlnCqDeuFw1DEsWk
+
 _*🧚‍♂️Enjoy your time with us!🧚‍♂️*_
 
 *🧚‍♂️Dark Queen🧚‍♂️* `;
