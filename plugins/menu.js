@@ -1,4 +1,4 @@
-const {readEnv} = require('../lib/database')
+const config = require('../config')
 const {cmd , commands} = require('../command')
 const os = require("os")
 const {runtime} = require('../lib/functions')
@@ -29,7 +29,7 @@ other: ''
 
 for (let i = 0; i < commands.length; i++) {
 if (commands[i].pattern && !commands[i].dontAddCommandList) {
-menu[commands[i].category] += `${config.PREFIX}${commands[i].pattern}\n`;
+menu[commands[i].category] += `.${commands[i].pattern}\n`;
  }
 }
 
@@ -90,7 +90,7 @@ let madeMenu = ` *👋 Hello ${pushname}*
 ╰───────────●●►
 *🧚𝗗𝗮𝗿𝗸 𝗤𝘂𝗲𝗲𝗻🧚*
 `
-return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/tjhxsh.jpg`},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`Error`)
