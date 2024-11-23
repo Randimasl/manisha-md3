@@ -10,6 +10,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
+const caption = `\`\`\`
 ❖ ── ✦ ──『✙ Alive ✙』── ✦ ── ❖
 
 📅 ${stylish.tiny('Date Today')} : ${myfunc.dayToday().date}
@@ -31,9 +32,14 @@ try{
 🎀 *YᴏᴜTᴜʙᴇ :* https://youtube.com/@Pika_Kunn
 🔮 *Public Group :* https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX
 
+*R𝚎𝚙𝚕𝚢 A N𝚞𝚖𝚋𝚎𝚛 T𝚘 G𝚎𝚝:*
+   𝟭 𝗔𝗹𝗹𝗺𝗲𝗻𝘂
+   𝟮 𝗟𝗶𝘀𝘁𝗺𝗲𝗻𝘂
+_ID: QA01_
+`;
 
-return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: config.ALIVE_MSG},{quoted: mek})
-}catch(e){
+return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/tjhxsh.jpg`},caption:ALIVE_MSG},{quoted: mek})
+}catch(e)
 console.log(e)
 reply(`${e}`)
 }
