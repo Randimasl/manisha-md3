@@ -52,7 +52,7 @@ module.exports = {
 
 --- *🧚‍♂️⚛ _Welcome to SAHAS-MD!_* ⚛🌹
 
-*🔹 OWNER:* 94718913389
+*🔹 OWNER:* 94759934522
 
 _Thank you for using_ *🧚‍♂️Dark Queen🌹.*
 _We're here to make your experience enjoyable and seamless._
