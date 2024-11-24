@@ -1,7 +1,7 @@
 {
   "name": "SAHAS-MD",
-  "description": "Javascript WhatsApp bot made by Sahas Tech",
-  "logo": "https://telegra.ph/file/1e4ba22b080c8fd6134f2.jpg",
+  "description": "Javascript WhatsApp bot made by Dark Queen",
+  "logo": "https://files.catbox.moe/gj8jbu.jpg",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -29,7 +29,7 @@
     "OWNER_NUMBER": {
       "description": "Owner Number",
       "required": true,
-      "default": "94718913389"
+      "default": "94759934522"
     },
     "ALIVE_IMG": {
       "description": "Put your alive img here.",
@@ -94,12 +94,12 @@
     "packname": {
       "description": "Pack name for your bot",
       "required": false,
-      "default": "SAHAS TECH"
+      "default": "Dark Queen"
     },
     "author": {
       "description": "Author name for your bot",
       "required": false,
-      "default": "SAHAS TECH"
+      "default": "Dark Queen"
     },
     "OPENWEATHER_API_KEY": {
       "description": "API key for OpenWeather",
