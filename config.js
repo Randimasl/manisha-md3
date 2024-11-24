@@ -50,11 +50,11 @@ module.exports = {
   
   START_MSG: process.env.START_MSG || `🧚‍♂️ *_Dark Queen Connected Successfully!_* 🧚‍♂️
 
---- *🧚‍♂️⚛ _Welcome to SAHAS-MD!_* ⚛🌹
+--- *🧚‍♂️⚛ _Welcome to Dark Queen!_ ⚛🧚‍♂️*
 
 *🔹 OWNER:* 94759934522
 
-_Thank you for using_ *🧚‍♂️Dark Queen🌹.*
+_Thank you for using_ *🧚‍♂️Dark Queen🌹*
 _We're here to make your experience enjoyable and seamless._
 _If you need any help or have questions, don't hesitate to ask._ 🧚‍♂️💗
 
