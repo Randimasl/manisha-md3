@@ -62,7 +62,7 @@ _If you need any help or have questions, don't hesitate to ask._ 🧚‍♂️�
 
 _*🧚‍♂️ Enjoy your time with us! 🙃*_
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ*` ,
+> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ*` ,
 
   ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/gj8jbu.jpg",
   MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/gj8jbu.jpg",
