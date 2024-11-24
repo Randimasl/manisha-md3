@@ -5,7 +5,7 @@ module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
   SESSION_ID: process.env.SESSION_ID || "WnYAmShD#yd_vK26iaD21EqW3E2p4gjYDjyOoxulC3HEiPLsvTz4",
   // ADD Your Session Id 
-  MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
+  MONGODB: process.env.MONGODB || "mongodb://mongo:tmVNIICplUrrmhmGIujHVSeWeIlrbNmU@junction.proxy.rlwy.net:46680",
     // ADD Your MongoDB Database URL
   PREFIX: process.env.PREFIX || ".",
   // Add Your Custom Prefix 
