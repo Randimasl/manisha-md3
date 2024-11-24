@@ -1,12 +1,12 @@
 {
-  "name": "MANISHA-MD",
-  "version": "2.0.0",
-  "description": "manisha-md WhatsApp bot created manisha With using Node.js",
+  "name": "Dark_Queen",
+  "version": "7.2.7",
+  "description": "Dark_Queen WhatsApp bot created manisha With using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name MANISHA-MD",
-    "stop": "pm2 stop MANISHA-MD",
-    "restart": "pm2 restart MANISHA-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Dark_Queen",
+    "stop": "pm2 stop Dark_Queen",
+    "restart": "pm2 restart Dark_Queen"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
