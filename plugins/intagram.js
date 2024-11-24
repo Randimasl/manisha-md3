@@ -39,7 +39,7 @@ try{
 
   await m.react('✅');
   let video = data.url;
-  let dev = '*❤ᴍᴀɴɪꜱʜᴀ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ❤*'
+  let dev = '*🧚‍♂️𝗗𝗮𝗿𝗸 𝗤𝘂𝗲𝗲𝗻🧚‍♂️*'
   
   try {
     await conn.sendMessage(m.chat, { video: { url: video }, caption: dev, fileName: 'ig.mp4', mimetype: 'video/mp4' }, { quoted: m });
