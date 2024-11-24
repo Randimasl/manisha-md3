@@ -28,8 +28,8 @@ module.exports = {
   ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "true",
   ANTI_BOT: process.env.ANTI_BOT || "true",
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
-  packname: process.env.packname || "SAHAS TECH",
-  author: process.env.author || "SAHAS TECH",
+  packname: process.env.packname || "Dark Queen",
+  author: process.env.author || "Dark Queen",
   //==========================================- API-CONFIGS -==========================================================
   OPENWEATHER_API_KEY: process.env.OPENWEATHER_API_KEY || "2d61a72574c11c4f36173b627f8cb177", //openweathermap.org
   ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || "sk_6438bcc100d96458f8de0602aec662f4ba14b905fd090ad3", //elevenlabs.io
@@ -48,27 +48,21 @@ module.exports = {
 //------------------------------------------------------------------------------------------------------------------
 
   
-  START_MSG: process.env.START_MSG || `🚀 *_SAHAS-MD Connected Successfully!_* ✅ 
+  START_MSG: process.env.START_MSG || `🧚‍♂️ *_Dark Queen Connected Successfully!_* 🧚‍♂️
 
---- *👨‍💻🎉 _Welcome to SAHAS-MD!_* 🎉💗 
+--- *🧚‍♂️⚛ _Welcome to SAHAS-MD!_* ⚛🌹
 
 *🔹 OWNER:* 94718913389
 
-_Thank you for using_ *👨‍💻SAHAS-MD💗.*
+_Thank you for using_ *🧚‍♂️Dark Queen🌹.*
 _We're here to make your experience enjoyable and seamless._
-_If you need any help or have questions, don't hesitate to ask._ 🌝💗
+_If you need any help or have questions, don't hesitate to ask._ 🧚‍♂️💗
 
-*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+*🖇️Join My WhatsApp Channel✓🌹 - :* https://whatsapp.com/channel/0029VavZd1y0lwgxqEopap2e
 
-*🖇️Subscribe My Youtube Channel✓💗 - :* https://www.youtube.com/@Sahas_Tech
+_*🧚‍♂️ Enjoy your time with us! 🙃*_
 
-*🖇️Fork & Star My Repo✓💗 - :* https://github.com/SahasTech22/SAHAS-MD
-
-*🖇️Follow My Github Account✓💗 - :* https://github.com/SahasTech22
-
-_*👨‍💻 Enjoy your time with us! 😊*_
-
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*` ,
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ*` ,
 
   ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/gj8jbu.jpg",
   MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/gj8jbu.jpg",
