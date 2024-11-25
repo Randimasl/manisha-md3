@@ -40,7 +40,6 @@
     "google-tts-api":"2.0.2",
     "ytdl-core": "^4.11.5",
     "xnxx-dl": "^1.0.4",
-    "mongoose":"8.5.3",
-    "mongodb":"6.11.0"
+    "mongoose":"8.5.3"
   }
 }
