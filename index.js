@@ -48,6 +48,8 @@ const {readEnv} = require('./lib/database')
 const config = await readEnv();
 const prefix = config.PREFIX
 //========================
+
+
 console.log("Connecting Dark Queen 🧚‍♂️...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/Dark_Queen/')
 var { version } = await fetchLatestBaileysVersion()
