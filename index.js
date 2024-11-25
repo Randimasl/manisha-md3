@@ -17,7 +17,7 @@ const util = require('util')
 const { sms,downloadMediaMessage } = require('./lib/msg')
 const axios = require('axios')
 const { File } = require('megajs')
-const prefix = '.'
+
 
 const ownerNumber = ['94759934522']
 
@@ -39,6 +39,14 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
+//connact mongodb==========
+const connectDB = require('./lib/mongodb')
+connectDB();
+//=========================
+const {readEnv} = require('./lib/database')
+const config = await readEnv();
+const prefix = config.PREFIX
+//========================
 console.log("Connecting Dark Queen 🧚‍♂️...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/Dark_Queen/')
 var { version } = await fetchLatestBaileysVersion()
